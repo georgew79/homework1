@@ -9,3 +9,8 @@ I've just recently made some changes to the main branch that I want to be sure a
 changes to the main branch. This preserves the two branches, but still allows me to combine changes to keep my analysis work moving forward. In other words, it 'moves' commits as opposed to 
 creating a new merge commit.
 
+What is a remote repository?
+
+Their are multiple tiers to storing a repository. The codebase is, of course, initially stored locally. Then, when pushed to a remote repository, the code is duplicated online. This is the point of git, github, 
+and version control overall. This allows us to store working versions of our code online and share our work with collaborators painlessly over the internet. The remote repository, then, is the 
+stored version of the codebase online, including all other branches that have been created and pushed to remote from the local device.
